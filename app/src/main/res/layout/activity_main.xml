@@ -19,39 +19,61 @@
         android:orientation="vertical"
         android:gravity="center_horizontal">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/my_nanodegree_apps"/>
+            android:text="@string/my_nanodegree_apps"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/textViewSize"
+            android:textColor="@color/colorButton"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/popularMoviesBtn"
-            android:text="@string/popular_movies"/>
+            android:text="@string/popular_movies"
+            android:textColor="@color/textColorForButton"
+            android:backgroundTint="@color/colorButton"
+            android:onClick="buttonClicked"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/stockHawkBtn"
-            android:text="@string/stock_hawk"/>
+            android:text="@string/stock_hawk"
+            android:textColor="@color/textColorForButton"
+            android:backgroundTint="@color/colorButton"
+            android:onClick="buttonClicked"
+            />
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/buildItBiggetBtn"
-            android:text="@string/build_it_bigger"/>
+            android:text="@string/build_it_bigger"
+            android:textColor="@color/textColorForButton"
+            android:backgroundTint="@color/colorButton"
+            android:onClick="buttonClicked"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/makeYourAppMaterialBtn"
-            android:text="@string/make_your_app_material"/>
+            android:text="@string/make_your_app_material"
+            android:textColor="@color/textColorForButton"
+            android:backgroundTint="@color/colorButton"
+            android:onClick="buttonClicked"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/goUbiquitousBtn"
-            android:text="@string/go_ubiquitous"/>
+            android:text="@string/go_ubiquitous"
+            android:textColor="@color/textColorForButton"
+            android:backgroundTint="@color/colorButton"
+            android:onClick="buttonClicked"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/capstoneBtn"
-            android:text="@string/capstone"/>
+            android:text="@string/capstone"
+            android:textColor="@color/textColorForButton"
+            android:backgroundTint="@color/colorButton"
+            android:onClick="buttonClicked"/>
     </LinearLayout>
 
 
