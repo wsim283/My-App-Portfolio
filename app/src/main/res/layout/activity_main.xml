@@ -8,10 +8,52 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="wellymulyadi.myappportfolio.MainActivity">
+    tools:context="wellymulyadi.myappportfolio.MainActivity"
+    android:gravity="center_horizontal">
 
-    <TextView
+
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_nanodegree_apps"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/popularMoviesBtn"
+            android:text="@string/popular_movies"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stockHawkBtn"
+            android:text="@string/stock_hawk"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buildItBiggetBtn"
+            android:text="@string/build_it_bigger"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/makeYourAppMaterialBtn"
+            android:text="@string/make_your_app_material"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/goUbiquitousBtn"
+            android:text="@string/go_ubiquitous"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/capstoneBtn"
+            android:text="@string/capstone"/>
+    </LinearLayout>
+
+
+
 </RelativeLayout>
