@@ -17,28 +17,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buttonClicked(View v){
-        int id = v.getId();
+        Button button = (Button)v;
         StringBuilder toastMessage = new StringBuilder("This button will launch my ");
-        String btnName = "";
-        switch(id){
-            case R.id.popularMoviesBtn:
-                btnName = getString(R.string.popular_movies);
-                break;
-            case R.id.stockHawkBtn:
-                btnName = getString(R.string.stock_hawk);
-                break;
-            case R.id.buildItBiggetBtn:
-                btnName = getString(R.string.build_it_bigger);
-                break;
-            case R.id.makeYourAppMaterialBtn:
-                btnName = getString(R.string.make_your_app_material);
-                break;
-            case R.id.goUbiquitousBtn:
-                btnName = getString(R.string.go_ubiquitous);
-                break;
-            default:
-                btnName = getString(R.string.capstone);
-        }
+        String btnName = button.getText().toString();
 
         toastMessage.append(btnName);
         toastMessage.append(" app!");
