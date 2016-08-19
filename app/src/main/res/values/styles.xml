@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="customButtonStyle" parent="Base.Widget.AppCompat.Button"
+        xmlns:tools="http://schemas.android.com/tools">
+        <item name="android:layout_width">@dimen/buttonWidthSize</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorForButton</item>
+        <item name="android:backgroundTint" tools:targetApi = "21">@color/colorButton</item>
+        <item name="android:onClick">buttonClicked</item>
+
+    </style>
 </resources>
